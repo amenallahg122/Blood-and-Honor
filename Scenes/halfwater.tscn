@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://bgjjcla48eq25"]
+
+[ext_resource type="Texture2D" uid="uid://cauckcra18ge2" path="res://Blood-and-Honor/assets/GandalfHardcore FREE Platformer Assets/GandalfHardcore Water Tiles sheet.png" id="1_k0u3l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_07nps"]
+atlas = ExtResource("1_k0u3l")
+region = Rect2(0, 32, 160, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fipu1"]
+atlas = ExtResource("1_k0u3l")
+region = Rect2(0, 96, 160, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nfkfo"]
+atlas = ExtResource("1_k0u3l")
+region = Rect2(0, 160, 160, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j0qfg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_07nps")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fipu1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nfkfo")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="water" type="StaticBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_j0qfg")
+autoplay = "default"
+frame_progress = 0.734192

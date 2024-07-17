@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pawprw52xntd"
+path="res://.godot/imported/spotifydown.com - apathy.wav-2d3f6157475dbbfe121375fe3a9f3ace.sample"
+
+[deps]
+
+source_file="res://Blood-and-Honor/assets/spotifydown.com - apathy.wav"
+dest_files=["res://.godot/imported/spotifydown.com - apathy.wav-2d3f6157475dbbfe121375fe3a9f3ace.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

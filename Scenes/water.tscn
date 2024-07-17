@@ -1,0 +1,123 @@
+[gd_scene load_steps=18 format=3 uid="uid://dvhph6gy0071n"]
+
+[ext_resource type="Texture2D" uid="uid://cauckcra18ge2" path="res://Blood-and-Honor/assets/GandalfHardcore FREE Platformer Assets/GandalfHardcore Water Tiles sheet.png" id="1_fduca"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oplht"]
+atlas = ExtResource("1_fduca")
+region = Rect2(0, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1tap3"]
+atlas = ExtResource("1_fduca")
+region = Rect2(32, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62q8o"]
+atlas = ExtResource("1_fduca")
+region = Rect2(64, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n6jx4"]
+atlas = ExtResource("1_fduca")
+region = Rect2(96, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_12jj6"]
+atlas = ExtResource("1_fduca")
+region = Rect2(128, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_auwgs"]
+atlas = ExtResource("1_fduca")
+region = Rect2(0, 64, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mxe3w"]
+atlas = ExtResource("1_fduca")
+region = Rect2(32, 64, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cfd46"]
+atlas = ExtResource("1_fduca")
+region = Rect2(64, 64, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uatp5"]
+atlas = ExtResource("1_fduca")
+region = Rect2(96, 64, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_km3xh"]
+atlas = ExtResource("1_fduca")
+region = Rect2(128, 64, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mbje7"]
+atlas = ExtResource("1_fduca")
+region = Rect2(0, 128, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l3phx"]
+atlas = ExtResource("1_fduca")
+region = Rect2(32, 128, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fwrar"]
+atlas = ExtResource("1_fduca")
+region = Rect2(64, 128, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b1tnl"]
+atlas = ExtResource("1_fduca")
+region = Rect2(96, 128, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ystae"]
+atlas = ExtResource("1_fduca")
+region = Rect2(128, 128, 32, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j0qfg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oplht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1tap3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62q8o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n6jx4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_12jj6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_auwgs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mxe3w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cfd46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uatp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_km3xh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mbje7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l3phx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fwrar")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b1tnl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ystae")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="water" type="StaticBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_j0qfg")
+autoplay = "default"
+frame_progress = 0.734192

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://r1ruthsuxism"]
+
+[ext_resource type="Script" path="res://Blood-and-Honor/scripts/progress_bar.gd" id="1_h3tl6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_irryn"]
+bg_color = Color(0.486275, 0, 0.0313726, 0.980392)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.194349, 0.194349, 0.194349, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ukqum"]
+bg_color = Color(0, 0.623529, 0.0196078, 1)
+
+[node name="ProgressBar" type="ProgressBar"]
+offset_right = 145.0
+offset_bottom = 10.0
+theme_override_styles/background = SubResource("StyleBoxFlat_irryn")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ukqum")
+show_percentage = false
+script = ExtResource("1_h3tl6")

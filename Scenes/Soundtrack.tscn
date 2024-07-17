@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://coqsqvtnddhv7"]
+
+[ext_resource type="AudioStream" uid="uid://pawprw52xntd" path="res://Blood-and-Honor/assets/spotifydown.com - apathy.wav" id="1_w5gwf"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_w5gwf")
+volume_db = -12.0
+autoplay = true
